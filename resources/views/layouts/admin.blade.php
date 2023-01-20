@@ -34,8 +34,8 @@
             </div>
             <div class="navbar-nav">
                 <div class="nav-item text-nowrap ms-2 d-flex">
-                    <a class="nav-link text-white me-2" href="http://localhost:5173/#">Home</a>
-                    <a class="nav-link" href="{{ route('logout') }}"
+                    <a class="btn btn-primary px-2 nav-link text-white me-2" href="http://localhost:5173/#"> Guest </a>
+                    <a class="nav-link me-2" href="{{ route('logout') }}"
                         onclick="event.preventDefault();
                         document.getElementById('logout-form').submit();">
                         {{ __('Logout') }}
